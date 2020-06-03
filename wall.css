@@ -23,3 +23,15 @@
   font-family: sans-serif;
   font-size: calc(1em + 1vmin);
 }
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 1em;
+}
+
+.box {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
