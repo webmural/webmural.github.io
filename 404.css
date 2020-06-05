@@ -19,11 +19,6 @@
   }
 }
 
-html {
-  background: seashell;
-  font: 2em sans-serif;
-}
-
+html { font: 2em sans-serif }
 body { margin: 1em }
-s { font-weight: bold }
 h1 { font: inherit }
