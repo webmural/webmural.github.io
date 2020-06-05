@@ -1,0 +1,29 @@
+@media (color) {
+  html {
+    background: seashell;
+    color: #123;
+  }
+
+  ::selection {
+    background: aqua;
+    color: #111;
+  }
+
+  :link,
+  :visited {
+    color: #808;
+  }
+
+  :focus {
+    outline-color: #505;
+  }
+}
+
+html {
+  background: seashell;
+  font: 2em sans-serif;
+}
+
+body { margin: 1em }
+s { font-weight: bold }
+h1 { font: inherit }
