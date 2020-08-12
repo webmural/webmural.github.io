@@ -1,6 +1,6 @@
 @media (color) {
   :root {
-    background: seashell;
+    background: linen;
     color: #123;
   }
 
@@ -17,6 +17,11 @@
   :focus {
     outline-color: #505;
   }
+
+  .drape {
+    background: plum;
+    color: #123;
+  }
 }
 
 :root {
@@ -24,19 +29,45 @@
   font-size: calc(1em + 1vmin);
 }
 
+img,
 svg {
   max-width: 100%;
   height: auto;
 }
 
+.drape {
+  display: inline-flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
 body {
   box-sizing: border-box;
   margin: 0;
-  padding: 1em;
+  padding: 2em;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .box {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+.portal {
+  box-sizing: border-box;
+  margin: 0;
+  margin-inline-end: 1rem;
+  margin-block-end: 1rem;
+  max-width: 100%;
+  padding: 0;
+}
+
+.banner {
+  flex-basis: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  margin-block-end: 2em;
 }
