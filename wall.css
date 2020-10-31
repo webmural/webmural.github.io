@@ -17,7 +17,25 @@
   :focus {
     outline-color: #505;
   }
+}
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    background: #123;
+    color: linen;
+  }
+
+  :link,
+  :visited {
+    color: hotpink;
+  }
+
+  :focus {
+    outline-color: pink;
+  }
+}
+
+@media (color) {
   .drape {
     background: plum;
     color: #123;
