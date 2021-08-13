@@ -75,6 +75,7 @@ body {
 
 .portal {
   box-sizing: border-box;
+  contain: content;
   margin: 0;
   margin-inline-end: 1rem;
   margin-block-end: 1rem;
