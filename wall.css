@@ -1,92 +1,72 @@
-@media (color) {
-  :root {
-    background: linen;
-    color: #123;
-  }
-
-  ::selection {
-    background: aqua;
-    color: #111;
-  }
-
-  :link,
-  :visited {
-    color: #808;
-  }
-
-  :focus {
-    outline-color: #505;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    background: #123;
-    color: linen;
-  }
-
-  :link,
-  :visited {
-    color: hotpink;
-  }
-
-  :focus {
-    outline-color: pink;
-  }
-}
-
-@media (color) {
-  .drape {
-    background: plum;
-    color: #123;
-  }
+.dew-diy {
+  --dew-solar: peachpuff;
+  --dew-lunar: #123;
 }
 
 :root {
-  font-family: sans-serif;
-  font-size: calc(1em + 1vmin);
+  font-family: monospace;
+  font-size: calc(1ex + 1vw + 1vh);
 }
 
-img,
 svg {
   max-width: 100%;
   height: auto;
 }
 
-.drape {
-  display: inline-flex;
-  flex-direction: column;
-  max-width: 100%;
+header {
+  font-size: 2em;
+  margin-block-end: 1em;
+}
+
+a {
+  text-decoration-style: solid;
+  text-decoration-thickness: .3ex;
+}
+
+dfn {
+  font-style: inherit;
+}
+
+em {
+  font-style: inherit;
+  font-weight: bolder;
 }
 
 body {
   box-sizing: border-box;
   margin: 0;
-  padding: 2em;
-  display: flex;
-  flex-flow: row wrap;
+  padding: 3em;
+  overflow-wrap: anywhere;
 }
 
-.box {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+figure {
+  margin: auto;
 }
 
-.portal {
-  box-sizing: border-box;
-  contain: content;
-  margin: 0;
-  margin-inline-end: 1rem;
-  margin-block-end: 1rem;
-  max-width: 100%;
-  padding: 0;
+em {
+  font-size: 2em;
+  font-style: inherit;
 }
 
-.banner {
-  flex-basis: 100%;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  margin-block-end: 2em;
+p {
+  line-height: 1.5;
+}
+
+strong {
+  font-size: 3em;
+}
+
+:link {
+  display: inline-block;
+  padding: .5ex;
+  text-shadow:
+    0 -1ex 2ex hotpink,
+    0 1ex 1ex lime;
+}
+
+@supports (--custom: 1) {
+  ::selection {
+    color: var(--dew-oil);
+    background: var(--dew-ink);
+  }
 }
