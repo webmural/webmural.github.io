@@ -35,8 +35,14 @@ em {
 body {
   box-sizing: border-box;
   margin: 0;
-  padding: 3em;
+  padding: 2em;
   overflow-wrap: anywhere;
+}
+
+@media (orientation: landscape) {
+  body {
+    padding-inline: 3em;
+  }
 }
 
 figure {
