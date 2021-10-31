@@ -1,40 +1,29 @@
 @media (color) {
   :root {
-    background: linen;
-    color: #123;
+    background: #404;
+    color: salmon;
   }
 
   ::selection {
-    background: aqua;
-    color: #111;
+    background: gainsboro;
+    color: #404;
   }
 
-  :link,
-  :visited {
-    color: #808;
-  }
-
-  :focus {
-    outline-color: #505;
-  }
+  :link { color: turquoise }
+  :visited { color: thistle }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    background: #123;
-    color: linen;
-  }
-
-  :link,
-  :visited {
-    color: hotpink;
-  }
-
-  :focus {
-    outline-color: pink;
-  }
+@media (color) and (prefers-contrast: more) {
+  :root { color: peachpuff }
+  :link { color: aquamarine }
+  :visited { color: pink }
 }
 
 html { font: 2em sans-serif }
 body { margin: 1em }
-h1 { font: inherit }
+h1 { font-size: inherit }
+
+:focus {
+  outline-style: dashed;
+  outline-width: thick;
+}
