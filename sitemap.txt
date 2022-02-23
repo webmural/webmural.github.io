@@ -1,6 +1,7 @@
 https://webmural.com
 https://webmural.com/143
 https://webmural.com/333
+https://webmural.com/about
 https://webmural.com/bewell
 https://webmural.com/beabadoobee
 https://webmural.com/body
@@ -16,6 +17,7 @@ https://webmural.com/formula
 https://webmural.com/index/
 https://webmural.com/inspire
 https://webmural.com/lavender
+https://webmural.com/license
 https://webmural.com/love
 https://webmural.com/lovebug
 https://webmural.com/lovefix
