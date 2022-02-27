@@ -1,6 +1,7 @@
 https://webmural.com
 https://webmural.com/143
 https://webmural.com/333
+https://webmural.com/air
 https://webmural.com/about
 https://webmural.com/bewell
 https://webmural.com/beabadoobee
@@ -16,6 +17,7 @@ https://webmural.com/fire
 https://webmural.com/formula
 https://webmural.com/index/
 https://webmural.com/inspire
+https://webmural.com/hbfs
 https://webmural.com/lavender
 https://webmural.com/license
 https://webmural.com/love
@@ -23,6 +25,7 @@ https://webmural.com/lovebug
 https://webmural.com/lovefix
 https://webmural.com/lovehate
 https://webmural.com/momg
+https://webmural.com/mpf
 https://webmural.com/possible
 https://webmural.com/redirect
 https://webmural.com/riseinpower
