@@ -26,6 +26,7 @@ https://webmural.com/index/
 https://webmural.com/inspire
 https://webmural.com/hbfs
 https://webmural.com/ivory
+https://webmural.com/kara
 https://webmural.com/lavender
 https://webmural.com/license
 https://webmural.com/lotos
@@ -45,6 +46,7 @@ https://webmural.com/risilient
 https://webmural.com/shame
 https://webmural.com/sleep
 https://webmural.com/sol
+https://webmural.com/somagical
 https://webmural.com/templated
 https://webmural.com/templates
 https://webmural.com/testing
