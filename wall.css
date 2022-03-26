@@ -1,5 +1,5 @@
 .dew-diy {
-  --dew-solar: silver;
+  --dew-solar: linen;
   --dew-lunar: #212;
 }
 
@@ -82,7 +82,7 @@ em {
   padding: 0;
   text-shadow:
     0 -1ex 2ex hotpink,
-    0 1ex 1ex lime;
+    0 1ex 1ex deeppink;
 }
 
 [class]:link {
