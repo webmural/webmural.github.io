@@ -7,6 +7,7 @@ https://webmural.com/8
 https://webmural.com/a11y
 https://webmural.com/aasb
 https://webmural.com/air
+https://webmural.com/airwaves
 https://webmural.com/about
 https://webmural.com/abundance
 https://webmural.com/ali
@@ -22,6 +23,7 @@ https://webmural.com/composure
 https://webmural.com/contrast
 https://webmural.com/creatoreditable
 https://webmural.com/css
+https://webmural.com/cxn
 https://webmural.com/damn
 https://webmural.com/dance
 https://webmural.com/dark
@@ -41,6 +43,7 @@ https://webmural.com/fire
 https://webmural.com/foaf
 https://webmural.com/formula
 https://webmural.com/fuel
+https://webmural.com/honeyspider
 https://webmural.com/imagine
 https://webmural.com/index/
 https://webmural.com/inspire
@@ -97,6 +100,7 @@ https://webmural.com/udm
 https://webmural.com/uranus
 https://webmural.com/utopia
 https://webmural.com/violence
+https://webmural.com/violet
 https://webmural.com/wall
 https://webmural.com/water
 https://webmural.com/web123
