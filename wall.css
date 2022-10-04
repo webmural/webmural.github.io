@@ -1,12 +1,10 @@
-.dew-diy {
-  --dew-solar: linen;
-  --dew-lunar: #212;
-}
-
 :root {
   font-family: monospace;
-  font-size: calc(1ex + 1vw + 1vh);
+  font-size: max(1em, 1ch + 1vw + 1vh);
 }
+
+.blab { font-size: 1rem }
+.blob { font-size: 1.618em }
 
 svg {
   max-width: 100%;
@@ -87,11 +85,4 @@ em {
 
 [class]:link {
   padding: 1ex;
-}
-
-@supports (--custom: 1) {
-  ::selection {
-    color: var(--dew-oil);
-    background: var(--dew-ink);
-  }
 }
