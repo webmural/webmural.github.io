@@ -3,6 +3,7 @@ https://webmural.com/143
 https://webmural.com/28
 https://webmural.com/333
 https://webmural.com/44
+https://webmural.com/7
 https://webmural.com/8
 https://webmural.com/a11y
 https://webmural.com/aasb
@@ -43,6 +44,7 @@ https://webmural.com/fire
 https://webmural.com/foaf
 https://webmural.com/formula
 https://webmural.com/fuel
+https://webmural.com/fwd
 https://webmural.com/honeyspider
 https://webmural.com/imagine
 https://webmural.com/index/
