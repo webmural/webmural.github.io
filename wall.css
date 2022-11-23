@@ -17,7 +17,7 @@ a {
 }
 
 dfn {
-  font-style: inherit;
+  font-style: oblique;
 }
 
 b,
@@ -57,10 +57,8 @@ em {
 
 .tide {
   display: block;
-  margin-inline-start: 0;
-  margin-inline-end: auto;
-  margin-block-start: 2ex;
-  margin-block-end: 3ex;
+  margin-block: 2ex;
+  margin-inline: 0 auto;
   max-width: 20em;
 }
 
