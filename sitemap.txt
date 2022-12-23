@@ -7,6 +7,7 @@ https://webmural.com/7
 https://webmural.com/8
 https://webmural.com/a11y
 https://webmural.com/aasb
+https://webmural.com/aim
 https://webmural.com/air
 https://webmural.com/airwaves
 https://webmural.com/about
@@ -14,6 +15,7 @@ https://webmural.com/abundance
 https://webmural.com/ali
 https://webmural.com/astrology
 https://webmural.com/aurora
+https://webmural.com/balm
 https://webmural.com/bee
 https://webmural.com/bet
 https://webmural.com/bewell
@@ -41,8 +43,10 @@ https://webmural.com/dm
 https://webmural.com/dream
 https://webmural.com/dreambig
 https://webmural.com/edm
+https://webmural.com/eleo
 https://webmural.com/emit
 https://webmural.com/fashion
+https://webmural.com/feeling
 https://webmural.com/feenyx
 https://webmural.com/fire
 https://webmural.com/foaf
@@ -50,6 +54,7 @@ https://webmural.com/formula
 https://webmural.com/fuel
 https://webmural.com/fwd
 https://webmural.com/gerbera
+https://webmural.com/halo
 https://webmural.com/honeyspider
 https://webmural.com/imagine
 https://webmural.com/index/
