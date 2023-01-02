@@ -13,6 +13,7 @@ https://webmural.com/airwaves
 https://webmural.com/about
 https://webmural.com/abundance
 https://webmural.com/ali
+https://webmural.com/aspect
 https://webmural.com/astrology
 https://webmural.com/aurora
 https://webmural.com/balm
@@ -30,6 +31,7 @@ https://webmural.com/composure
 https://webmural.com/contrast
 https://webmural.com/copia
 https://webmural.com/coral
+https://webmural.com/creative
 https://webmural.com/creatoreditable
 https://webmural.com/css
 https://webmural.com/cuerpo
@@ -49,6 +51,7 @@ https://webmural.com/dreambig
 https://webmural.com/edm
 https://webmural.com/eleo
 https://webmural.com/emit
+https://webmural.com/fable
 https://webmural.com/fashion
 https://webmural.com/feeling
 https://webmural.com/feenyx
@@ -77,7 +80,9 @@ https://webmural.com/jupiter
 https://webmural.com/jimi
 https://webmural.com/kara
 https://webmural.com/laguna
+https://webmural.com/latin
 https://webmural.com/lavender
+https://webmural.com/leeloo
 https://webmural.com/license
 https://webmural.com/lotos
 https://webmural.com/lotus
@@ -89,21 +94,25 @@ https://webmural.com/lovereal
 https://webmural.com/luna
 https://webmural.com/magma
 https://webmural.com/mahalo
+https://webmural.com/main
 https://webmural.com/maybee
 https://webmural.com/mc
 https://webmural.com/mc2
 https://webmural.com/milf
+https://webmural.com/mina
 https://webmural.com/mode
 https://webmural.com/momg
 https://webmural.com/moon
 https://webmural.com/mp3
 https://webmural.com/mpf
+https://webmural.com/mufasa
 https://webmural.com/music
 https://webmural.com/natural
 https://webmural.com/nature
 https://webmural.com/neptune
 https://webmural.com/nerd
 https://webmural.com/noise
+https://webmural.com/nola
 https://webmural.com/ocean
 https://webmural.com/octopus
 https://webmural.com/om
@@ -126,6 +135,8 @@ https://webmural.com/sleep
 https://webmural.com/space
 https://webmural.com/sol
 https://webmural.com/somagical
+https://webmural.com/spellbound
+https://webmural.com/surge
 https://webmural.com/syl
 https://webmural.com/tdor
 https://webmural.com/templated
@@ -135,6 +146,7 @@ https://webmural.com/time
 https://webmural.com/tlfr
 https://webmural.com/topaz
 https://webmural.com/toucan
+https://webmural.com/trance
 https://webmural.com/treemall
 https://webmural.com/trident
 https://webmural.com/turf
