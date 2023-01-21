@@ -71,6 +71,13 @@ em {
   font-weight: bold;
 }
 
+.boost {
+  text-shadow:
+    0 -3vh 1ch,
+    0 -2vh 0,
+    0 -1vh 0;
+}
+
 :link {
   box-sizing: border-box;
   border-radius: 2ex 3ex;
@@ -79,6 +86,10 @@ em {
   text-shadow:
     0 -1ex 2ex hotpink,
     0 1ex 1ex deeppink;
+}
+
+:focus {
+  outline: thick groove;
 }
 
 [class]:link {
