@@ -20,6 +20,7 @@ https://webmural.com/air
 https://webmural.com/airwaves
 https://webmural.com/ali
 https://webmural.com/aoyo
+https://webmural.com/aerial
 https://webmural.com/around
 https://webmural.com/aspect
 https://webmural.com/astrology
@@ -71,6 +72,7 @@ https://webmural.com/edm
 https://webmural.com/eleo
 https://webmural.com/elephant
 https://webmural.com/emit
+https://webmural.com/emux
 https://webmural.com/eros
 https://webmural.com/earth
 https://webmural.com/fable
@@ -91,6 +93,7 @@ https://webmural.com/hbfs
 https://webmural.com/heat
 https://webmural.com/helmet
 https://webmural.com/herd
+https://webmural.com/hoca
 https://webmural.com/hoh
 https://webmural.com/honeyspider
 https://webmural.com/hope
@@ -126,6 +129,7 @@ https://webmural.com/lovehate
 https://webmural.com/lovereal
 https://webmural.com/luna
 https://webmural.com/magma
+https://webmural.com/magnet
 https://webmural.com/mahalo
 https://webmural.com/main
 https://webmural.com/mars
@@ -158,10 +162,12 @@ https://webmural.com/om
 https://webmural.com/opacity
 https://webmural.com/opposition
 https://webmural.com/orchid
+https://webmural.com/pastel
 https://webmural.com/pg
 https://webmural.com/ph
 https://webmural.com/phantom
 https://webmural.com/phantombra
+https://webmural.com/pinata
 https://webmural.com/pluto
 https://webmural.com/porpoise
 https://webmural.com/possible
@@ -177,6 +183,7 @@ https://webmural.com/rem
 https://webmural.com/riseinpower
 https://webmural.com/risilient
 https://webmural.com/rose
+https://webmural.com/sardonyx
 https://webmural.com/sea
 https://webmural.com/sex
 https://webmural.com/shame
@@ -222,4 +229,5 @@ https://webmural.com/well
 https://webmural.com/whale
 https://webmural.com/wind
 https://webmural.com/wolfsbane
+https://webmural.com/xyz
 https://webmural.com/yup

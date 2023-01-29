@@ -3,56 +3,33 @@
   font-size: max(1em, 1ch + 1vw + 1vh);
 }
 
-.blab { font-size: 1rem }
+.blab { font-size: 1em }
 .blob { font-size: 1.618em }
 
-svg {
-  max-width: 100%;
-  height: auto;
-}
-
 a {
-  text-decoration-style: solid;
-  text-decoration-thickness: .3ex;
-}
-
-dfn {
-  font-style: oblique;
-}
-
-b,
-em {
-  font-style: inherit;
-  font-weight: bolder;
+  text-decoration-style: dotted;
+  text-decoration-thickness: .5ex;
 }
 
 body {
   box-sizing: border-box;
+  display: flex;
+  flex-flow: column;
+  line-height: 1.618;
   margin: auto;
   max-width: 100%;
   overflow-wrap: anywhere;
-  display: flex;
-  flex-flow: column;
-  margin-block-start: -1ex;
-  padding-inline-start: calc(1em + 2vw);
-  padding-inline-end: calc(1em + 1vw);
+  padding: 0 2em;
 }
 
-figure {
-  margin: auto;
-}
+h1 { font-size: 2.618em }
+h2 { font-size: 1.618em }
+li { margin-block: 1em }
 
-h1 { font-size: 2.2rem }
-h2 { font-size: 1.6rem }
-
-p {
-  font-weight: bold;
-  line-height: 1.6;
-}
-
-em {
-  font-size: 2em;
-  font-style: inherit;
+menu {
+  contain: layout;
+  list-style: none ;
+  line-height: 2.618;
 }
 
 .tide {
@@ -62,13 +39,14 @@ em {
   max-width: 20em;
 }
 
-.wave > a {
-  display: table;
-  margin-block: 1ex;
+.wave {
+  contain: layout;
 }
 
-.bold {
-  font-weight: bold;
+.wave > a {
+  display: table;
+  margin-block: 1ch;
+  padding: 1ch;
 }
 
 .boost {
@@ -82,16 +60,11 @@ em {
   box-sizing: border-box;
   border-radius: 2ex 3ex;
   display: inline-block;
-  padding: 0;
-  text-shadow:
-    0 -1ex 2ex hotpink,
-    0 1ex 1ex deeppink;
-}
-
-:focus {
-  outline: thick groove;
-}
-
-[class]:link {
   padding: 1ex;
 }
+
+:hover { text-decoration-style: solid }
+:focus { outline: thick dotted }
+.claw { padding: 0 }
+.bold { font-weight: bold }
+.fizz { padding-inline: 2em }
