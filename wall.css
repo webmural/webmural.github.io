@@ -1,14 +1,6 @@
-:root {
+html {
   font-family: monospace;
   font-size: max(1em, 1ch + 1vw + 1vh);
-}
-
-.blab { font-size: 1em }
-.blob { font-size: 1.618em }
-
-a {
-  text-decoration-style: dotted;
-  text-decoration-thickness: .5ex;
 }
 
 body {
@@ -28,25 +20,52 @@ li { margin-block: 1em }
 
 menu {
   contain: layout;
-  list-style: none ;
+  list-style: none;
   line-height: 2.618;
 }
 
+:link {
+  border-radius: 2ch 3ch;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 1ch;
+  text-decoration-style: dotted;
+  text-decoration-thickness: .5ex;
+}
+
+:focus {
+  outline: .5ex dotted;
+}
+
+:hover {
+  text-decoration-style: solid;
+}
+
+:active {
+  text-decoration-style: double;
+}
+
 .tide {
+  contain: layout;
   display: block;
-  margin-block: 2ex;
+  margin-block: 1em;
   margin-inline: 0 auto;
   max-width: 20em;
 }
 
 .wave {
   contain: layout;
+  font-size: 1.236em;
 }
 
 .wave > a {
   display: table;
-  margin-block: 1ch;
-  padding: 1ch;
+  margin-bottom: 1em;
+  padding: 1em;
+}
+
+.wave:target > a {
+  display: inline-flex;
 }
 
 .boost {
@@ -56,15 +75,8 @@ menu {
     0 -1vh 0;
 }
 
-:link {
-  box-sizing: border-box;
-  border-radius: 2ex 3ex;
-  display: inline-block;
-  padding: 1ex;
-}
-
-:hover { text-decoration-style: solid }
-:focus { outline: thick dotted }
+.blab { font-size: 1em }
+.blob { font-size: 1.618em }
 .claw { padding: 0 }
 .bold { font-weight: bold }
 .fizz { padding-inline: 2em }
