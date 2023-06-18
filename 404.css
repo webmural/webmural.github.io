@@ -19,11 +19,20 @@
   :visited { color: pink }
 }
 
-html { font: 2em sans-serif }
+html { font: max(2em, 4vmax + 4vmin) sans-serif }
 body { margin: 1em }
 h1 { font-size: inherit }
 
+:focus-within {
+  list-style: circle;
+}
+
 :focus {
-  outline-style: dashed;
-  outline-width: thick;
+  outline-style: dotted;
+  outline-width: 1pc;
+  text-decoration-style: dotted;
+}
+
+:hover {
+  text-decoration-style: double;
 }
