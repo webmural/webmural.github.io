@@ -24,21 +24,22 @@ menu {
   line-height: 2.618;
 }
 
-:link {
-  border-radius: 2ch 3ch;
+:any-link {
+  border-radius: 3ch 2ch;
   box-sizing: border-box;
   display: inline-block;
   padding: 1ch;
-  text-decoration-style: dotted;
-  text-decoration-thickness: .5ex;
+  text-decoration-style: solid;
+  text-decoration-thickness: .2rem;
 }
 
 :focus {
-  outline: .5ex dotted;
+  outline: .3rem dotted;
+  text-decoration-style: dotted;
 }
 
-:hover {
-  text-decoration-style: solid;
+:any-link:hover {
+  text-decoration-style: double;
 }
 
 :active {
