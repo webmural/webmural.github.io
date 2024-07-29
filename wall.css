@@ -14,6 +14,10 @@ body {
   padding: 0 2em;
 }
 
+header {
+  display: flow-root;
+}
+
 h1 { font-size: 2.618em }
 h2 { font-size: 1.618em }
 li { margin-block: 1em }
@@ -28,7 +32,7 @@ menu {
   border-radius: 3ch 2ch;
   box-sizing: border-box;
   display: inline-block;
-  padding: 1ch;
+  padding: 1em 1ch;
   text-decoration-style: solid;
   text-decoration-thickness: .2rem;
 }
@@ -61,12 +65,9 @@ menu {
 
 .wave > a {
   display: table;
-  margin-bottom: 1em;
-  padding: 1em;
-}
-
-.wave:target > a {
   display: inline-flex;
+  margin-bottom: 1em;
+  padding: 3ch 1em;
 }
 
 .boost {
@@ -81,3 +82,5 @@ menu {
 .claw { padding: 0 }
 .bold { font-weight: bold }
 .fizz { padding-inline: 2em }
+.fart { float: inline-start }
+.raft { float: inline-end }
