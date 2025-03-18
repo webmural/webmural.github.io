@@ -28,6 +28,7 @@ https://webmural.com/aim
 https://webmural.com/air
 https://webmural.com/airwaves
 https://webmural.com/ali
+https://webmural.com/always
 https://webmural.com/aoyo
 https://webmural.com/apu
 https://webmural.com/around
@@ -67,6 +68,7 @@ https://webmural.com/butterfly
 https://webmural.com/buoy
 https://webmural.com/byos
 https://webmural.com/chiron
+https://webmural.com/cim
 https://webmural.com/clim8
 https://webmural.com/code
 https://webmural.com/coffee
@@ -200,6 +202,7 @@ https://webmural.com/lovehate
 https://webmural.com/lovereal
 https://webmural.com/lucy
 https://webmural.com/luna
+https://webmural.com/lunar
 https://webmural.com/luvel
 https://webmural.com/magma
 https://webmural.com/magnet
@@ -231,6 +234,7 @@ https://webmural.com/nature
 https://webmural.com/neptune
 https://webmural.com/nerd
 https://webmural.com/neve
+https://webmural.com/nnis
 https://webmural.com/noise
 https://webmural.com/nola
 https://webmural.com/o3
@@ -308,6 +312,7 @@ https://webmural.com/spellbound
 https://webmural.com/stardust
 https://webmural.com/starsheet
 https://webmural.com/sueno
+https://webmural.com/sup
 https://webmural.com/supra
 https://webmural.com/surge
 https://webmural.com/swirl
@@ -348,10 +353,12 @@ https://webmural.com/waitup
 https://webmural.com/wall
 https://webmural.com/water
 https://webmural.com/web123
+https://webmural.com/weezer
 https://webmural.com/well
 https://webmural.com/whale
 https://webmural.com/wind
 https://webmural.com/wolfsbane
+https://webmural.com/wordiamword
 https://webmural.com/xyz
 https://webmural.com/ydy
 https://webmural.com/yellov
