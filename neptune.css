@@ -1,0 +1,158 @@
+/*
+opensource faith in the mirror remix
+https://s9a.page/tape
+https://s9a.page/ooze
+https://webmural.com/kindess
+*/
+
+/* opensuction s9a.page/tape */
+
+:root {
+  --tape-filter: none;
+  --tape-bluv: #11dff1;
+  --tape-play: #fbbfff;
+  --tape-loud: #eee833;
+  --tape-luvu: #44f477;
+  --tape-blaq: #0e0e0e;
+  --tape-watt: #e0e0e0;
+  --tape-hex: #e0e0e0;
+  --tape-mix: transparent;
+}
+
+:root {
+  --watt: #e0e0e0;
+  --play: #fbbfff;
+  --loud: #eee833;
+  --luvu: #44f477;
+  --blaq: #0e0e0e;
+  --bluv: #11dff1;
+  --heat: rgb(250, 50, 150);
+  --bath: rgb(300, 60, 200);
+  --jupe: rgb(240, 180, 30);
+  --volt: rgb(240, 240, 30);
+  --lawn: rgb(90, 210, 90);
+  --moss: rgb(120, 210, 210);
+  --wind: rgb(150, 210, 240);
+  --teal: rgb(90, 180, 210);
+  --rain: rgb(90, 180, 270);
+  --pour: rgb(90, 150, 240);
+  --pulp: rgb(180, 90, 240);
+  --plur: rgb(150, 108, 333);
+  --pynk: rgb(240, 120, 330); 
+  --punk: rgb(270, 120, 330);
+  --plum: plum;
+  --kink: rgb(120, 100, 300);
+  --ooze: rgb(210, 210, 210);
+	--xxze: rgb(30, 10, 20);
+	--oooo: var(--ooze);
+	--xxxx: var(--xxze);
+}
+
+.xxze.xxze {
+  --oooo: var(--xxze);
+  --xxxx: var(--ooze);
+  background-color: var(--xxze);
+  color: var(--ooze);
+}
+
+.ooze.ooze {
+  --oooo: var(--ooze);
+  --xxxx: var(--xxze);
+  background-color: var(--ooze);
+  color: var(--xxze);
+}
+
+@media (prefers-color-scheme: db) {
+  .xxze.ooze {
+    --oooo: var(--xxze);
+    --xxxx: var(--ooze);
+    background-color: var(--xxze);
+    color: var(--ooze);
+  }
+}
+
+::selection {
+	background: var(--xxxx);
+  color: var(--oooo);
+}
+
+.watt { --ooze: var(--watt) }
+.play { --ooze: var(--play) }
+.loud { --ooze: var(--loud) }
+.luvu { --ooze: var(--luvu) }
+.blaq { --ooze: var(--blaq) }
+.bluv { --ooze: var(--bluv) }
+
+.heat { --ooze: var(--heat) }
+.bath { --ooze: var(--bath) }
+.jupe { --ooze: var(--jupe) }
+.volt { --ooze: var(--volt) }
+.lawn { --ooze: var(--lawn) }
+.moss { --ooze: var(--moss) }
+.wind { --ooze: var(--wind) }
+.teal { --ooze: var(--teal) }
+.rain { --ooze: var(--rain) }
+.pour { --ooze: var(--pour) }
+.plur { --ooze: var(--plur) }
+.pulp { --ooze: var(--pulp) }
+.pynk { --ooze: var(--pynk) }
+.punk { --ooze: var(--punk) }
+.plum { --ooze: var(--plum) }
+.kink { --ooze: var(--kink) }
+
+[href] {
+  color: inherit;
+  background-color: transparent;
+}
+
+:focus {
+  outline: thick groove;
+  box-shadow: 0 0 .8ex .8ex var(--xxxx, plum);
+}
+
+.spectra {
+  background-image: linear-gradient(
+    .75turn,
+    var(--plur),
+    var(--pulp),
+    var(--pynk),
+    var(--punk),
+    var(--heat),
+    var(--bath),
+    var(--jupe),
+    var(--volt),
+    var(--lawn),
+    var(--moss),
+    var(--wind),
+    var(--teal),
+    var(--rain),
+    var(--pour),
+    var(--plum),
+    var(--kink)
+  );
+}
+
+@media (orientation: portrait) {
+  .spectra {
+    --turn: .5turn;
+  }
+}
+
+.spectre {
+  background-image: radial-gradient(
+    var(--rain),
+    var(--pour),
+    var(--rain)
+  );
+}
+
+@media (prefers-color-scheme: dark) {
+  .spectre {
+    background-image: radial-gradient(
+      var(--pulp),
+      var(--plur),
+      var(--kink),
+      var(--plur)
+    );
+  }
+}

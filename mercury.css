@@ -1,0 +1,143 @@
+:any-link {
+  display: inline-block;
+  padding: 1ex 1ch;
+}
+
+:focus {
+  outline: thick inset;
+  text-decoration-skip-ink: all;
+/*   box-shadow: 0 0 1ex 1ex var(--heyz, currentColor); */
+}
+
+:any-link:hover {
+  text-decoration-style: double;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: max(3ch, 1em + .2vmin + .8vmax);
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+  line-height: 1.61803399;
+  margin: 0;
+  overflow-wrap: anywhere;
+  padding: 0 1em;
+}
+
+header {
+  contain: layout;
+  display: flow-root;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-items: center;
+}
+
+a.ooze {
+  box-shadow: 0 0 2pc 1pc var(--oooo);
+  display: inline-flex;
+  margin-inline-end: 2pc;
+  margin-block-end: 3pc;
+}
+
+.eq > a {
+  margin: 0;
+}
+
+.eq {
+  contain: layout;
+  display: flex;
+  flex-flow: column;
+  gap: 1.618em;
+}
+
+.sponge {
+  font-size: 1.236em;
+  font-weight: bold;
+  transform: rotate(-20deg);
+  padding: 1ex;
+  margin-bottom: -1ex;
+  margin-top: 1ex;
+  margin-left: auto;
+  margin-right: 10vw;
+  float: inline-end;
+  letter-spacing: .5ex;
+  border-radius: 100% 33%;
+  box-shadow: 0 0 1ex 1pc var(--oooo);
+}
+
+body { --hi: 1.236em }
+h1 em { font: unset }
+h1 { font-size: 2em;  }
+h2 { font-size: 1.382em }
+li { margin-block: 1em }
+
+
+@media (min-width: 36em) {
+  body { --hi: 1.618em }
+  h1 { font-size: 2.618em }
+  h2 { font-size: 1.618em }
+  p { font-size: 1.236em }
+}
+
+@media (orientation: portrait) {
+  h1 b { font-size: var(--hi) }
+}
+
+@media (orientation: landscape) {
+  h1 em { font-size: var(--hi) }
+}
+
+div {
+  display: flex;
+  flex-flow: column;
+  min-height: 62vh;
+  justify-content: center;
+}
+
+footer {
+  margin: 5rem auto;
+  max-width: 39em;
+}
+
+article {
+  margin: 5rem auto;
+  max-width: 39em;
+}
+
+article a {
+  padding: 1rem;
+}
+
+.blocparty {
+  display: inline-block;
+}
+
+article h2 { 
+  font-weight: unset;
+}
+
+main {
+  margin: -2em 0 0;
+  padding: 1em;
+}
+
+h1 {
+  margin: 1em auto 1em 0;
+}
+
+.alfabetz {
+  align-items: flex-start;
+  clear: both;
+  display: flex;
+  flex-flow: column;
+  font-weight: unset;
+  margin: 3em auto;
+}
