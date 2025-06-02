@@ -11,11 +11,10 @@
 * [<b>`npm run firefox`</b>](https://firefox.com)
 * <b>`npm test`</b>
 
-### [templates](https://github.com/webmural/templates)
+### [templates](../../../../webmural/templates)
 
-* [<b>wall</b>](https://github.com/webmural/wall)
-* [<b>well</b>](https://github.com/webmural/well)
-* [<b>redirect</b>](https://github.com/webmural/redirect)
+* just about every mural is template enabled
+* like [<b>1111</b>](../../../../webmural/1111) [<b>dbqp</b>](../../../../webmural/dbqp)
 
 ### [<b>create repos</b>](https://github.com/webmural/templates) **not** folders
 
@@ -23,7 +22,7 @@
 
 * each mural is fast
 * each visit is light
-* flexible to [alias or redirect](https://github.com/webmural/redirect)
+* flexible to [alias or redirect](../../../../webmural/redirect)
 * murals are independent
 * murals hyperlink other murals
 * murals are valid HTML and [Lighthouse 100%+](https://developers.google.com/web/tools/lighthouse)
