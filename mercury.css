@@ -76,21 +76,15 @@ h1 { font-size: 2em; margin: 1em auto 1em 0 }
 h2 { font-size: 1.382em }
 li { margin-block: 1em }
 
-.blocparty {
-  display: inline-block;
-}
-
 footer {
   margin: 5rem auto;
   max-width: 30em;
-  padding-inline-start: 1rem;
 }
 
 article {
   contain: layout;
   margin: 5rem auto;
   max-width: 50em;
-  padding-inline-start: 1rem;
 }
 
 article a { padding: 1rem }
@@ -110,6 +104,10 @@ main {
   margin: 3em auto;
 }
 
+.blocparty {
+  display: inline-block;
+}
+
 @media (min-width: 36em) {
   body { --hi: 1.618em }
   h1 { font-size: 2.618em }
@@ -118,11 +116,15 @@ main {
 }
 
 @media (orientation: portrait) {
+  footer,
+  article { padding-inline-start: 2pc }
   h1 b { font-size: var(--hi) }
   .cape.cape { display: none }
 }
 
 @media (orientation: landscape) {
+  footer,
+  article { padding-inline-start: 2ch }
   h1 em { font-size: var(--hi) }
   .port.port { display: none }
 }
