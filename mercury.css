@@ -6,15 +6,10 @@
 :focus {
   outline: thick inset;
   text-decoration-skip-ink: all;
-/*   box-shadow: 0 0 1ex 1ex var(--heyz, currentColor); */
 }
 
 :any-link:hover {
   text-decoration-style: double;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 html {
@@ -59,26 +54,61 @@ a.ooze {
 }
 
 .sponge {
+  border-radius: 8em 5em;
+  border-radius: 50% 33%;
+  box-shadow: 0 0 1ex 1pc var(--oooo);
   font-size: 1.236em;
   font-weight: bold;
-  transform: rotate(-20deg);
-  padding: 1ex;
+  letter-spacing: .5ex;
   margin-bottom: -1ex;
   margin-top: 1ex;
   margin-left: auto;
   margin-right: 10vw;
+  padding: 1ex;
   float: inline-end;
-  letter-spacing: .5ex;
-  border-radius: 100% 33%;
-  box-shadow: 0 0 1ex 1pc var(--oooo);
+  transform: rotate(-20deg);
 }
 
+* { box-sizing: border-box }
 body { --hi: 1.236em }
 h1 em { font: unset }
-h1 { font-size: 2em;  }
+h1 { font-size: 2em; margin: 1em auto 1em 0 }
 h2 { font-size: 1.382em }
 li { margin-block: 1em }
 
+.blocparty {
+  display: inline-block;
+}
+
+footer {
+  margin: 5rem auto;
+  max-width: 30em;
+  padding-inline-start: 1rem;
+}
+
+article {
+  contain: layout;
+  margin: 5rem auto;
+  max-width: 50em;
+  padding-inline-start: 1rem;
+}
+
+article a { padding: 1rem }
+article h2 { font-weight: unset }
+
+main {
+  margin: -2em 0 0;
+  padding: 1em;
+}
+
+.alfabetz {
+  align-items: flex-start;
+  clear: both;
+  display: flex;
+  flex-flow: column;
+  font-weight: unset;
+  margin: 3em auto;
+}
 
 @media (min-width: 36em) {
   body { --hi: 1.618em }
@@ -89,55 +119,10 @@ li { margin-block: 1em }
 
 @media (orientation: portrait) {
   h1 b { font-size: var(--hi) }
+  .cape.cape { display: none }
 }
 
 @media (orientation: landscape) {
   h1 em { font-size: var(--hi) }
-}
-
-div {
-  display: flex;
-  flex-flow: column;
-  min-height: 62vh;
-  justify-content: center;
-}
-
-footer {
-  margin: 5rem auto;
-  max-width: 39em;
-}
-
-article {
-  margin: 5rem auto;
-  max-width: 39em;
-}
-
-article a {
-  padding: 1rem;
-}
-
-.blocparty {
-  display: inline-block;
-}
-
-article h2 { 
-  font-weight: unset;
-}
-
-main {
-  margin: -2em 0 0;
-  padding: 1em;
-}
-
-h1 {
-  margin: 1em auto 1em 0;
-}
-
-.alfabetz {
-  align-items: flex-start;
-  clear: both;
-  display: flex;
-  flex-flow: column;
-  font-weight: unset;
-  margin: 3em auto;
+  .port.port { display: none }
 }

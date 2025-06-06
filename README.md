@@ -18,7 +18,7 @@
 
 ### [<b>create repos</b>](https://github.com/webmural/templates) **not** folders
 
-### because this is how we roll fast and wide and able to adapt 
+### this is how we roll fast and wide and able to adapt 
 
 * each mural is fast
 * each visit is light
