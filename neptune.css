@@ -28,6 +28,7 @@ https://webmural.com/kindess
   --bluv: #11dff1;
   --heat: rgb(250, 50, 150);
   --bath: rgb(300, 60, 200);
+  --nemo: #fab;
   --jupe: rgb(240, 180, 30);
   --volt: rgb(240, 240, 30);
   --lawn: rgb(90, 210, 90);
@@ -40,7 +41,7 @@ https://webmural.com/kindess
   --plur: rgb(150, 108, 333);
   --pynk: rgb(240, 120, 330); 
   --punk: rgb(270, 120, 330);
-  --plum: plum;
+  --pluw: plum;
   --kink: rgb(120, 100, 300);
   --ooze: rgb(210, 210, 210);
 	--xxze: rgb(30, 10, 20);
@@ -71,6 +72,13 @@ https://webmural.com/kindess
   }
 }
 
+.oooo {
+  text-shadow:
+    0 2ex 1pc var(--oooo),
+    0 3ex 1pc var(--oooo),
+    0 2em 1pc var(--oooo);
+}
+
 ::selection {
 	background: var(--xxxx);
   color: var(--oooo);
@@ -85,6 +93,7 @@ https://webmural.com/kindess
 
 .heat { --ooze: var(--heat) }
 .bath { --ooze: var(--bath) }
+.nemo { --ooze: var(--nemo) }
 .jupe { --ooze: var(--jupe) }
 .volt { --ooze: var(--volt) }
 .lawn { --ooze: var(--lawn) }
@@ -97,7 +106,7 @@ https://webmural.com/kindess
 .pulp { --ooze: var(--pulp) }
 .pynk { --ooze: var(--pynk) }
 .punk { --ooze: var(--punk) }
-.plum { --ooze: var(--plum) }
+.pluw { --ooze: var(--pluw) }
 .kink { --ooze: var(--kink) }
 
 [href] {
@@ -119,6 +128,7 @@ https://webmural.com/kindess
     var(--punk),
     var(--heat),
     var(--bath),
+    var(--nemo),
     var(--jupe),
     var(--volt),
     var(--lawn),
@@ -127,7 +137,7 @@ https://webmural.com/kindess
     var(--teal),
     var(--rain),
     var(--pour),
-    var(--plum),
+    var(--pluw),
     var(--kink)
   );
 }

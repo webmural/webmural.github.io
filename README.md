@@ -1,5 +1,7 @@
 # [webmural.com](https://webmural.com) <br> [webmural.github.io](https://webmural.github.io)
 
+iTz our homepage
+
 ### maintain [valid](https://html5.validator.nu/?doc=https%3A%2F%2Fwebmural.com) [HTML](https://mdn.io/html)
 
 * <b>[index](index.html)</b>
@@ -18,11 +20,11 @@
 
 ### [<b>create repos</b>](https://github.com/webmural/templates) **not** folders
 
-### because this is how we roll fast and wide and able to adapt 
+### b/c this helps us adapt at scale
 
 * each mural is fast
-* each visit is light
+* each visit is lite
 * flexible to [alias or redirect](../../../../webmural/redirect)
 * murals are independent
-* murals hyperlink other murals
+* murals hyperlink other murals artfully
 * murals are valid HTML and [Lighthouse 100%+](https://developers.google.com/web/tools/lighthouse)
